@@ -25,9 +25,6 @@ long.src = "assets/long.png";
 var topbar = document.getElementById("topbtns");
 var botbar = document.getElementById("botbtns");
 
-var tophalf = document.getElementById("half-top");
-var bothalf = document.getElementById("half-bot");
-
 var toppart = 0;
 var botpart = 0;
 
@@ -48,6 +45,23 @@ function update()
 {
 	document.getElementById("dp-result").innerText = grid[toppart][botpart];
 	document.getElementById("dp-kix").innerText = grid[toppart][botpart];
+}
+
+function reset()
+{
+	toppart = botpart = 0;
+	update();
+}
+
+function clearbuffer()
+{
+	document.getElementById("buffer").value = "";
+}
+
+function addchar()
+{
+	document.getElementById("buffer").value += grid[toppart][botpart];
+	reset();
 }
 
 (function() {
