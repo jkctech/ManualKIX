@@ -16,6 +16,18 @@ const grid = [
 	"UVWXYZ"
 ];
 
+var short = document.createElement('img');
+short.classList.add("stripe");
+var long = short.cloneNode(true);
+short.src = "assets/short.png";
+long.src = "assets/long.png";
+
+var topbar = document.getElementById("topbtns");
+var botbar = document.getElementById("botbtns");
+
+var tophalf = document.getElementById("half-top");
+var bothalf = document.getElementById("half-bot");
+
 var toppart = 0;
 var botpart = 0;
 
@@ -35,18 +47,10 @@ function btnclick(btn)
 function update()
 {
 	document.getElementById("dp-result").innerText = grid[toppart][botpart];
+	document.getElementById("dp-kix").innerText = grid[toppart][botpart];
 }
 
 (function() {
-	var topbar = document.getElementById("topbtns");
-	var botbar = document.getElementById("botbtns");
-
-	var short = document.createElement('img');
-	short.classList.add("stripe");
-	var long = short.cloneNode(true);
-	short.src = "assets/short.png";
-	long.src = "assets/long.png";
-
 	for (var i = 0; i < blocks.length; i++)
 	{
 		var btn = document.createElement('button');
@@ -67,4 +71,6 @@ function update()
 		topbar.appendChild(btn);
 		botbar.appendChild(btn.cloneNode(true));
 	}
+
+	update();
 })();

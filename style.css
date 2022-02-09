@@ -36,6 +36,8 @@ html, body {
 	width: 49%;
 	margin: 0;
 	display: inline-block;
+	text-align: center;
+	line-height: 30vw;
 }
 
 #dp-kix {
@@ -44,11 +46,25 @@ html, body {
 
 #dp-result {
 	font-size: 24vw;
-	text-align: center;
+}
+
+#dp-kix {
+	font-size: 12vw;
+	font-family: KIX;
 	vertical-align: bottom;
 }
 
 #botbtns {
 	-webkit-transform: scaleY(-1);
 	transform: scaleY(-1);
+}
+
+.kix-half {
+	height: 50%;
+	width: 100%;
+}
+
+@font-face {
+	font-family: 'KIX';
+	src: url('assets/kix.ttf')  format('truetype');
 }
