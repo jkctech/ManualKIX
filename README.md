@@ -33,6 +33,7 @@ Make use of the live <a href="https://jkctech.github.io/ManualKIX/" target="_bla
 KIX codes are basically a **"font"** in which every character is encoded into 4 bars.
 
 Every character can be divided into 3 parts:
+
 <img src="assets/info.png">
 
 By looking at the character as having an "upper" and "lower" half, we can decode characters manually with little effort using the table below.
