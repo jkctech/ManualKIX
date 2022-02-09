@@ -1,0 +1,54 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.stripe {
+	width: 1vw;
+	margin: 0.3vw;
+}
+
+.btnblock {
+	display: block;
+}
+
+.btnblock button {
+	margin: 0 5px;
+}
+
+.display {
+	display: block;
+	height: 30vw;
+	border: 1px solid black;
+	margin: 10px 0;
+}
+
+.display div {
+	height: 100%;
+	width: 49%;
+	margin: 0;
+	display: inline-block;
+}
+
+#dp-kix {
+	border-right: 1px solid black;
+}
+
+#dp-result {
+	font-size: 24vw;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+#botbtns {
+	-webkit-transform: scaleY(-1);
+	transform: scaleY(-1);
+}
