@@ -18,9 +18,9 @@ Make use of the live <a href="https://jkctech.github.io/ManualKIX/" target="_bla
 
 **If you don't know how KIX characters are built-up, please refer below to [How does KIX work?](#how-does-kix-work)**
 
-- ![#B200FF](https://via.placeholder.com/15/B200FF/000000?text=+) **Upper Half Buttons**
-- ![#FF0800](https://via.placeholder.com/15/FF0800/000000?text=+) **Lower Half Buttons**
-- ![#00FF21](https://via.placeholder.com/15/00FF21/000000?text=+) **Controlset**
+- ![#B200FF](https://dummyimage.com/15/B200FF/000000?text=+) **Upper Half Buttons**
+- ![#FF0800](https://dummyimage.com/15/FF0800/000000?text=+) **Lower Half Buttons**
+- ![#00FF21](https://dummyimage.com/15/00FF21/000000?text=+) **Controlset**
 	* **Textfield** - Used to memorize characters
 	* **Clear** - Clear the textfield
 	* **Add** - Adds current built character to the textfield and resets to '0'
